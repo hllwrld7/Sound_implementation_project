@@ -20,19 +20,19 @@ public class MusicSwitch_new : MonoBehaviour, IInteractable
             switch (gameObject.name)
             {
                 case "Food_bottle4":
-                    audioSystem.TavernMusic.SetParameter("Switch_parts", 0);
+                    audioSystem.TavernMusic.SetParameter("music_parameter", 0);
                     Debug.Log("Switching Music");
                     break;
                 case "Food_bottle1":
-                    audioSystem.TavernMusic.SetParameter("Switch_parts", 1);
+                    audioSystem.TavernMusic.SetParameter("music_parameter", 1);
                     Debug.Log("Switching Music");
                     break;
                 case "Food_bottle3":
-                    audioSystem.TavernMusic.SetParameter("Switch_parts", 2);
+                    audioSystem.TavernMusic.SetParameter("music_parameter", 2);
                     Debug.Log("Switching Music");
                     break;
                 case "Food_bottle2":
-                    audioSystem.TavernMusic.SetParameter("Switch_parts", 3);
+                    audioSystem.TavernMusic.SetParameter("music_parameter", 3);
                     audioSystem.isMusicPlaying = false;
                     Debug.Log(audioSystem.isMusicPlaying);
                     break;
@@ -42,7 +42,7 @@ public class MusicSwitch_new : MonoBehaviour, IInteractable
         {
             if(gameObject.name == "Food_bottle6")
             Debug.Log("start");
-            audioSystem.TavernMusic.SetParameter("Switch_parts", 0);
+            audioSystem.TavernMusic.SetParameter("music_parameter", 0);
             audioSystem.TavernMusic.Play();
             audioSystem.isMusicPlaying = true;
         }
