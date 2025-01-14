@@ -19,43 +19,16 @@ MonoBehaviour:
     Data3: 1753453197
     Data4: 1405703057
   Banks:
-  - {fileID: -2909330107274701844}
+  - {fileID: -4285915054372308094}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -130993681483247584}
+  - {fileID: -765594494067740401}
   MinDistance: 1
   MaxDistance: 20
   Length: 175537
---- !u!114 &-3186659407209852135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Snapshot Event
-  m_EditorClassIdentifier: 
-  Path: event:/Snapshot Event
-  Guid:
-    Data1: 1055178822
-    Data2: 1151383420
-    Data3: 1422309527
-    Data4: 1270646101
-  Banks:
-  - {fileID: -2909330107274701844}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-2909330107274701844
+--- !u!114 &-4285915054372308094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,39 +43,12 @@ MonoBehaviour:
   Path: ../../Downloads/track2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638724460637481793
+  lastModified: 638724483619811280
   FileSizes:
   - Name: Desktop
-    Value: 2410432
+    Value: 2409920
   Exists: 1
---- !u!114 &-348172329409314661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/snapshot1
-  m_EditorClassIdentifier: 
-  Path: snapshot:/snapshot1
-  Guid:
-    Data1: -1636019006
-    Data2: 1309855510
-    Data3: 1063264675
-    Data4: -1122045578
-  Banks:
-  - {fileID: -2909330107274701844}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &-130993681483247584
+--- !u!114 &-765594494067740401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,6 +76,33 @@ MonoBehaviour:
   - Value C
   - Value D
   Exists: 1
+--- !u!114 &-348172329409314661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/snapshot1
+  m_EditorClassIdentifier: 
+  Path: snapshot:/snapshot1
+  Guid:
+    Data1: -1636019006
+    Data2: 1309855510
+    Data3: 1063264675
+    Data4: -1122045578
+  Banks:
+  - {fileID: -4285915054372308094}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,20 +116,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 7876068857539958730}
-  - {fileID: -2909330107274701844}
+  - {fileID: 829873462943481280}
+  - {fileID: -4285915054372308094}
   EditorEvents:
   - {fileID: -7754727305261330015}
-  - {fileID: -3186659407209852135}
   - {fileID: -348172329409314661}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2909330107274701844}
+  - {fileID: -4285915054372308094}
   StringsBanks:
-  - {fileID: 7876068857539958730}
-  cacheTime: 638724460637481793
+  - {fileID: 829873462943481280}
+  cacheTime: 638724483619821288
   cacheVersion: 131617
---- !u!114 &7876068857539958730
+--- !u!114 &829873462943481280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,8 +143,8 @@ MonoBehaviour:
   Path: ../../Downloads/track2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638724460637481793
+  lastModified: 638724483619821288
   FileSizes:
   - Name: Desktop
-    Value: 964
+    Value: 908
   Exists: 1

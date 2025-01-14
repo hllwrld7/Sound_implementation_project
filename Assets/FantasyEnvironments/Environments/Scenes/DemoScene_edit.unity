@@ -2990,11 +2990,11 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
-    Path: event:/Snapshot Event
+      Data1: -1636019006
+      Data2: 1309855510
+      Data3: 1063264675
+      Data4: -1122045578
+    Path: snapshot:/snapshot1
 --- !u!4 &771838603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4446057377279770, guid: cb181bc6c302bca40929333077286a04, type: 3}
@@ -7650,11 +7650,11 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
-    Path: event:/Snapshot Event
+      Data1: -1636019006
+      Data2: 1309855510
+      Data3: 1063264675
+      Data4: -1122045578
+    Path: snapshot:/snapshot1
 --- !u!1 &1955809125
 GameObject:
   m_ObjectHideFlags: 0
@@ -8407,11 +8407,11 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
-    Path: event:/Snapshot Event
+      Data1: -1636019006
+      Data2: 1309855510
+      Data3: 1063264675
+      Data4: -1122045578
+    Path: snapshot:/snapshot1
 --- !u!1 &2104964197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1519495122330548, guid: b6bdc8350ca1cf24f9b7e651e790e08b, type: 3}
@@ -8459,11 +8459,11 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
-    Path: event:/Snapshot Event
+      Data1: -1636019006
+      Data2: 1309855510
+      Data3: 1063264675
+      Data4: -1122045578
+    Path: snapshot:/snapshot1
 --- !u!1 &2111722698
 GameObject:
   m_ObjectHideFlags: 0
