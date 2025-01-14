@@ -45,14 +45,14 @@ public class Music : MonoBehaviour
                                                                                   // ENG - giving the snapshot class the path to the selected event / snapshot
             HealthSnap.start(); // włączenie snapshotu // ENG - snapshot activation
             snapshotPlaying = true;
-            Debug.Log($"health dnap started {HealthSnap.Equals(null)}");
+            Debug.Log($"health dnap started");
         }
         else if (tavernEmitter_Music != null && tavernEmitter_Music.IsPlaying() && !healthSnapActive && snapshotPlaying)
         {
             snapshotPlaying = false;
             HealthSnap.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); // STOP z fadeout // ENG - stop with fading out
             HealthSnap.release(); // zwolnienie pamięci // ENG - memory release
-            Debug.Log($"health dnap stopped {HealthSnap.Equals(null)}");
+            Debug.Log($"health dnap stopped");
         }
     }
 

@@ -28,34 +28,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 303500
---- !u!114 &-3186659407209852135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Snapshot Event
-  m_EditorClassIdentifier: 
-  Path: event:/Snapshot Event
-  Guid:
-    Data1: 985484808
-    Data2: 1251340342
-    Data3: -1979231
-    Data4: 1544713420
-  Banks:
-  - {fileID: 2914557024778514764}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3191391042821227013}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 301500
 --- !u!114 &-2654545766331811366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,10 +43,10 @@ MonoBehaviour:
   Path: ../../Downloads/tracvk3-20250107T071327Z-001/tracvk3/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638724451059679974
+  lastModified: 638724478959707096
   FileSizes:
   - Name: Desktop
-    Value: 964
+    Value: 908
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -93,14 +65,13 @@ MonoBehaviour:
   - {fileID: 2914557024778514764}
   EditorEvents:
   - {fileID: -7754727305261330015}
-  - {fileID: -3186659407209852135}
   - {fileID: 8928710877874416027}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2914557024778514764}
   StringsBanks:
   - {fileID: -2654545766331811366}
-  cacheTime: 638724451059679974
+  cacheTime: 638724478959707096
   cacheVersion: 131617
 --- !u!114 &2914557024778514764
 MonoBehaviour:
@@ -117,38 +88,10 @@ MonoBehaviour:
   Path: ../../Downloads/tracvk3-20250107T071327Z-001/tracvk3/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638724451059664898
+  lastModified: 638724478959702050
   FileSizes:
   - Name: Desktop
-    Value: 3775424
-  Exists: 1
---- !u!114 &3191391042821227013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Snapshot Event/music_parameter
-  m_EditorClassIdentifier: 
-  Name: music_parameter
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 3603555255
-    data2: 324085197
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - start
-  - middle1
-  - middle2
-  - end
+    Value: 3773248
   Exists: 1
 --- !u!114 &4342338403075016565
 MonoBehaviour:
