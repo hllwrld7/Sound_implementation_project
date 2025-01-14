@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Downloads/track2/track2.fspro
-  sourceBankPath: ../../Downloads/track2/Build
+  sourceProjectPath: ../../Downloads/track1/track1.fspro
+  sourceBankPath: ../../Downloads/track1/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1

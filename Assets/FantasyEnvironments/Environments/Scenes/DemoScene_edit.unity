@@ -2990,10 +2990,10 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
+      Data1: -923185289
+      Data2: 1339895742
+      Data3: 803166133
+      Data4: -1535180199
     Path: event:/Snapshot Event
 --- !u!4 &771838603 stripped
 Transform:
@@ -4971,10 +4971,10 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: -1636019006
-      Data2: 1309855510
-      Data3: 1063264675
-      Data4: -1122045578
+      Data1: -1152066742
+      Data2: 1323700755
+      Data3: -1520133986
+      Data4: -1605004087
     Path: snapshot:/snapshot1
 --- !u!1 &1421538550
 GameObject:
@@ -7650,10 +7650,10 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
+      Data1: -923185289
+      Data2: 1339895742
+      Data3: 803166133
+      Data4: -1535180199
     Path: event:/Snapshot Event
 --- !u!1 &1955809125
 GameObject:
@@ -8407,10 +8407,10 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
+      Data1: -923185289
+      Data2: 1339895742
+      Data3: 803166133
+      Data4: -1535180199
     Path: event:/Snapshot Event
 --- !u!1 &2104964197 stripped
 GameObject:
@@ -8459,10 +8459,10 @@ MonoBehaviour:
   tavernEmitter_Music: {fileID: 2111722703}
   healthSnapshot:
     Guid:
-      Data1: 1055178822
-      Data2: 1151383420
-      Data3: 1422309527
-      Data4: 1270646101
+      Data1: -923185289
+      Data2: 1339895742
+      Data3: 803166133
+      Data4: -1535180199
     Path: event:/Snapshot Event
 --- !u!1 &2111722698
 GameObject:
@@ -8585,10 +8585,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 2104861095
-      Data2: 1213593983
-      Data3: 1753453197
-      Data4: 1405703057
+      Data1: 1751994751
+      Data2: 1317262461
+      Data3: -1927951982
+      Data4: 742288751
     Path: event:/New Event 2
   Event: 
   PlayEvent: 0

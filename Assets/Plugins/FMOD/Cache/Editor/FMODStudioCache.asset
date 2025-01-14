@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/New Event 2
   Guid:
-    Data1: 2104861095
-    Data2: 1213593983
-    Data3: 1753453197
-    Data4: 1405703057
+    Data1: 1751994751
+    Data2: 1317262461
+    Data3: -1927951982
+    Data4: 742288751
   Banks:
-  - {fileID: -2909330107274701844}
+  - {fileID: -444844020052425124}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -130993681483247584}
+  - {fileID: 2933310217527457014}
   MinDistance: 1
   MaxDistance: 20
-  Length: 175537
+  Length: 181032
 --- !u!114 &-3186659407209852135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,12 +42,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Snapshot Event
   Guid:
-    Data1: 1055178822
-    Data2: 1151383420
-    Data3: 1422309527
-    Data4: 1270646101
+    Data1: -923185289
+    Data2: 1339895742
+    Data3: 803166133
+    Data4: -1535180199
   Banks:
-  - {fileID: -2909330107274701844}
+  - {fileID: -444844020052425124}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2909330107274701844
+--- !u!114 &-444844020052425124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,13 +67,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../Downloads/track2/Build/Desktop/Master.bank
+  Path: ../../Downloads/track1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638724460637481793
+  lastModified: 638724462624196788
   FileSizes:
   - Name: Desktop
-    Value: 2410432
+    Value: 2380096
   Exists: 1
 --- !u!114 &-348172329409314661
 MonoBehaviour:
@@ -89,12 +89,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: snapshot:/snapshot1
   Guid:
-    Data1: -1636019006
-    Data2: 1309855510
-    Data3: 1063264675
-    Data4: -1122045578
+    Data1: -1152066742
+    Data2: 1323700755
+    Data3: -1520133986
+    Data4: -1605004087
   Banks:
-  - {fileID: -2909330107274701844}
+  - {fileID: -444844020052425124}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -102,7 +102,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-130993681483247584
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8491681605082400575}
+  - {fileID: -444844020052425124}
+  EditorEvents:
+  - {fileID: -7754727305261330015}
+  - {fileID: -3186659407209852135}
+  - {fileID: -348172329409314661}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -444844020052425124}
+  StringsBanks:
+  - {fileID: 8491681605082400575}
+  cacheTime: 638724462624206778
+  cacheVersion: 131617
+--- !u!114 &2933310217527457014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,8 +146,8 @@ MonoBehaviour:
   Max: 3
   Default: 0
   ID:
-    data1: 1973127363
-    data2: 532923958
+    data1: 929255744
+    data2: 2494585016
   Type: 2
   IsGlobal: 0
   Labels:
@@ -130,33 +156,7 @@ MonoBehaviour:
   - Value C
   - Value D
   Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 7876068857539958730}
-  - {fileID: -2909330107274701844}
-  EditorEvents:
-  - {fileID: -7754727305261330015}
-  - {fileID: -3186659407209852135}
-  - {fileID: -348172329409314661}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -2909330107274701844}
-  StringsBanks:
-  - {fileID: 7876068857539958730}
-  cacheTime: 638724460637481793
-  cacheVersion: 131617
---- !u!114 &7876068857539958730
+--- !u!114 &8491681605082400575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,10 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../Downloads/track2/Build/Desktop/Master.strings.bank
+  Path: ../../Downloads/track1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638724460637481793
+  lastModified: 638724462624206778
   FileSizes:
   - Name: Desktop
     Value: 964
