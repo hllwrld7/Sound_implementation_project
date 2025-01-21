@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Downloads/tracvk3-20250107T071327Z-001/tracvk3/tracvk3.fspro
-  sourceBankPath: ../../Downloads/tracvk3-20250107T071327Z-001/tracvk3/Build
+  sourceProjectPath: ../../Downloads/tavernproj-20250121T084932Z-001/tavernproj/tavernproj.fspro
+  sourceBankPath: ../../Downloads/tavernproj-20250121T084932Z-001/tavernproj/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
